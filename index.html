@@ -63,45 +63,43 @@
                         </svg>
                 </button>
                 <span class=form__title>Оставьте свои данные, мы вам перезвоним</span>
-                <label class="form__label"> 
-                    <div class=form__placeholder>
-                        <svg class="form__icon" width=20 height=20>
-                            <use href="./images/symbol-defs.svg#icon-form-person" ></use>
-                        </svg>
-                        <span class="form__descr">Имя</span>
-                    </div> 
+                <div class="form__wraper">
                     <input class="form__input" type="text" name="customer">
-                </label >
-        
-                <label class="form__label">
-                    <div class=form__placeholder>
+                    <label class="form__label"> 
                         <svg class="form__icon" width=20 height=20>
-                            <use href="./images/symbol-defs.svg#icon-form-phone" ></use>
+                                <use href="./images/symbol-defs.svg#icon-form-person" ></use>
+                        </svg>
+                            <span class="form__descr">Имя</span>
+                    </label >
+                </div>
+                <div class="form__wraper">
+                    <input class="form__input" type="tel" name="tel">
+                    <label class="form__label">
+                        <svg class="form__icon" width=20 height=20>
+                                <use href="./images/symbol-defs.svg#icon-form-phone" ></use>
                         </svg>
                         <span class="form__descr">Телефон</span> 
-                    </div>
-                        <input class="form__input" type="tel" name="tel">
-                </label>
-
-                <label class="form__label">
-                    <div class=form__placeholder>
-                            <svg class="form__icon" width=20 height=20>
-                                <use href="./images/symbol-defs.svg#icon-form-email" ></use>
-                            </svg>
-                            <span class="form__descr"> Почта</span>
-                    </div>
+                    </label>
+                </div>
+                <div class="form__wraper">
                     <input class="form__input" type="email" name="e-mail">
-                </label>
-                <label class="form__label">
-                    <div class=form__placeholder>
-                        <span class="form__descr">Комментарий</span>
-                    </div>
-                 <textarea class="form__input" name="comment" rows="10">                   
-                 </textarea>
-                </label>
+                    <label class="form__label">
+                        <svg class="form__icon" width=20 height=20>
+                            <use href="./images/symbol-defs.svg#icon-form-email" ></use>
+                        </svg>
+                        <span class="form__descr"> Почта</span>
+                    </label>
+                </div>
+                <div class="form__wraper">
+                    <textarea class="form__input" name="comment" rows="10"> </textarea>
+                    <label class="form__label">
+                        <span class="form__comment">Комментарий</span>
+                    </label>
+                </div>
                 <label class="form__term">
                         <input class="form__checkbox" type="checkbox" >Соглашаюсь с рассылкой и принимаю <a class="form__term--link" href="">Условия договора</a> 
                 </label>
+
                 <button class="button button--center" type="submit">Отправить</button>
 
             </form>
