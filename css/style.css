@@ -852,7 +852,9 @@
 }
 
 .form__term--link {
+    display: inline-block;
     color: var(--accent-primary-color);
+    margin-left: 4px;
 }
 
 .form__label {
