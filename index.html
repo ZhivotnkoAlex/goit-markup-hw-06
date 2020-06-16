@@ -424,15 +424,17 @@
                 <!-- подписка -->
                 <div class="submit">
                     <b class="submit__title "> подписаться на рассылку</b>
-                    <ul class="submit__list">
-                        <li class="submit__item"><input type="email" placeholder="E-mail" class="submit__mail" name="submit">
-                        </li>
-                        <li><button class="button submit__button ">
+                    <form action="" autocomplete="off">
+                        <ul class="submit__list">
+                            <li class="submit__item"><input type="email" placeholder="E-mail" class="submit__mail" name="user-email">
+                            </li>
+                            <li><button type="submit" class="button submit__button ">
                             Подписаться<svg class="submit__icon" width=24 height=24>
                                 <use href="./images/symbol-defs.svg#icon-plane"></use>
                             </svg>
                         </button></li>
-                    </ul>
+                        </ul>
+                    </form>
                 </div>
             </div>
             <p class="copyright ">2020 | Developed by GoIT Students</p>

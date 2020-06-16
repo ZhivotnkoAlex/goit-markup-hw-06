@@ -234,6 +234,7 @@
     background-color: var(--button-background);
     border: none;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .button--center {
@@ -849,6 +850,7 @@
     letter-spacing: 0.03em;
     color: var(--secondary-color);
     margin-bottom: 30px;
+    justify-content: center;
 }
 
 .form__term--link {
@@ -956,6 +958,7 @@
     border-radius: 50%;
     background-color: var(--main-background-color);
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
 }
 
 .checkbox {
@@ -969,8 +972,6 @@
 
 .checkbox__icon {
     display: block;
-    margin-right: auto;
-    margin-left: auto;
     width: 15px;
     height: 15px;
     border: 1px solid #000000;
