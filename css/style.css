@@ -913,6 +913,7 @@
 }
 
 .form__textarea {
+    display: block;
     position: relative;
     resize: none;
     width: 100%;
@@ -920,6 +921,7 @@
     border-radius: 4px;
     padding: 12px 16px 12px 16px;
     outline: none;
+    height: 146px;
 }
 
 .form__wraper:focus-within .form__icon,
